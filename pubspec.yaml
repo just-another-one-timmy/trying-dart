@@ -1,0 +1,4 @@
+name: try_dart_pubspec
+description: Trying Dart.
+dependencies:
+  stream: any
