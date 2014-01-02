@@ -1,4 +1,5 @@
 name: try_dart_pubspec
 description: Trying Dart.
 dependencies:
+  browser: any
   stream: any
