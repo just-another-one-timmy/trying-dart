@@ -4,12 +4,20 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <script type="application/dart" src="client.dart"></script>
-  <script type="text/javascript" src="packages/browser/dart.js"></script>
-  <button id="connect">Connect</button><br>
-  <input id="name"></input><button id="submit">Submit</button>
-  <p>Log:</p>
-  <ul id="log">
-  </ul>
+  <div id="header">
+    <svg xmlns="http://www.w3.org/2000/svg" id="circles">
+    </svg>
+  </div>
+  <div id="content">
+    <script type="application/dart" src="client.dart"></script>
+    <script type="text/javascript" src="packages/browser/dart.js"></script>
+    <input id="name"></input>
+    <button id="submit">Submit</button>
+    <span id="verificationResults"></span>
+    <div>Our id is <span id="clientId">...</span></div>
+    <p>Log:</p>
+    <ul id="log">
+    </ul>
+  </div>
 </body>
 </html>

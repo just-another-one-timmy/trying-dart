@@ -2,3 +2,31 @@
   background-color: #aaddaa;
   color: #3311ff;
 }
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: #ededff;
+}
+
+#content {
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.success {
+  background-color: #bbffbb;
+  color: black;
+}
+
+.fail {
+  background-color: #ff3333;
+  color: white;
+}
